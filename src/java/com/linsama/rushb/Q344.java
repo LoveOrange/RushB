@@ -1,0 +1,11 @@
+package com.linsama.rushb;
+
+public class Q344 {
+    public String reverseString(String s) {
+        StringBuilder sb = new StringBuilder("");
+        for (int i = s.length() - 1; i > -1; i--) {
+            sb.append(s.charAt(i));
+        }
+        return sb.toString();
+    }
+}
