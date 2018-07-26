@@ -1,8 +1,5 @@
 package com.linsama.rushb;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Q122 {
     public int maxProfit(int[] prices) {
         if (prices.length == 0) {
